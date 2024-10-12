@@ -4,17 +4,22 @@
     align-items: center;
 }
 
-.first-div{
+.main-div{
     width: 100vw;
     height: 100vh;
 }
 
-.second-div{
+.inner-div{
     width: 50vw;
     background-color: rgb(215, 215, 241);
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
+
 #character-img{
     width:400px;
-    height: 400px;
+    height: 600px;
 }
