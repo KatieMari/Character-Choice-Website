@@ -19,13 +19,13 @@ a {
 }
 
 #my-button {
-    padding: 5px;
+    width: 100px;
+    padding: 10px;
     background-color: rgb(245, 229, 234);
     border-radius: 4px;
     cursor: pointer;
-    color: white;
+    color: rgb(71, 71, 71);
 }
-
 
 /* Centers the Elements */
 .container {
@@ -49,8 +49,7 @@ a {
     flex-direction: column;
 }
 
-
 #character-img {
     width: 400px;
-    height: 600px;
+    height: 700px;
 }
