@@ -1,10 +1,10 @@
 console.log('hello world')
 
 // Defines Sources for each Charcter Choice
-const imageSources = ["Assets/Images/Cat 1.avif", "Assets/Images/Cat 2.png", "Assets/Images/Cat 3.jpg"];
+const imageSources = ["Assets/Images/Cat 1.png", "Assets/Images/Cat 2.png", "Assets/Images/Cat 3.png"];
 
 // Defines AltText for Images
-const altText = ["Grey Cat", "Ginger Cat", "Black & White Cat"]
+const altText = ["Black Cat", "Ginger Cat", "Grey & White Cat"]
 
 // Defines Text for Paragraph for each Character Choice
 const characterNames = ["Charlie", "Leo", "Birdie"];
