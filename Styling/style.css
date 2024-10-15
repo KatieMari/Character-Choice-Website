@@ -23,16 +23,14 @@ a {
     font-size: 50px;
 }
 
-
-
-
 /* Styles for the Button */
 #character-change-button {
     font-size: 25px;
-    width: 100px;
+    width: 200px;
+    margin: 10px;
     padding: 10px;
     background-color: rgb(245, 229, 234);
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     color: rgb(71, 71, 71);
 }
