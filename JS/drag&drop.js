@@ -1,4 +1,4 @@
-const flowerHeadband = document.getElementById("complement-1");
+const complements = document.getElementsByClassName("complement");
 const dropZone = document.getElementById("character-img");
 
 function onDrop(event) {
@@ -27,4 +27,7 @@ function onDragStart(event) {
 
 dropZone.ondrop = onDrop;
 dropZone.ondragover = onDragOver;
-flowerHeadband.ondragstart = onDragStart;
+
+for(let complement of complements) [
+    complement.ondragstart = onDragStart
+]

@@ -18,7 +18,7 @@ a {
     text-decoration: wavy;
 }
 
-#complement-1 {
+.complement {
     position: relative;
     width: 200px;
 }
