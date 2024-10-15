@@ -18,7 +18,12 @@ a {
     text-decoration: wavy;
 }
 
+#my-paragraph {
+    font-size: 50px;
+}
+
 #my-button {
+    font-size: 25px;
     width: 100px;
     padding: 10px;
     background-color: rgb(245, 229, 234);
