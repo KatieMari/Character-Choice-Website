@@ -18,6 +18,11 @@ a {
     text-decoration: wavy;
 }
 
+#complement-1 {
+    position: relative;
+    width: 200px;
+}
+
 /* Styles for the Paragraph */
 #character-name-paragraph {
     font-size: 50px;

@@ -7,6 +7,7 @@
 
     <!-- Script Link -->
     <script src="JS/script.js" defer> </script>
+    <script src="JS/drag&drop.js" defer> </script>
 
     <!-- Link to Styling -->
     <link href="Styling/style.css" rel="stylesheet" />
@@ -16,31 +17,37 @@
 </head>
 
 <body>
-    <!-- Drag and Drop Images -->
-    <img draggable="true" id="complement-one" src="Assets/Images/Flower Headband.png" alt="A Flower Headband" />
-
     <!-- Main Div -->
     <div class="container main-div">
 
         <!-- Inner Div -->
-        <div class="container inner-div flex-column">
+        <div class="container inner-div">
 
-            <img id="character-img" src="Assets/Images/Cat 1.png" alt="Black Cat" />
+            <div class="container flex-column">
+                <!-- Drag and Drop Images -->
+                <img draggable="true" id="complement-1" src="Assets/Images/Flower Headband.png"
+                    alt="A Flower Headband" />
+            </div>
 
-            <!-- Character Name -->
-            <p id="character-name-paragraph">
-                Charlie
-            </p>
+            <div class="container flex-column">
+                <img id="character-img" src="Assets/Images/Cat 1.png" alt="Black Cat" />
 
-            <!-- Change Name of Character Input -->
-            <div class="container">
-                <input id="name-change-input" />
-                <button id="name-change-button"> Change Name </button>
+                <!-- Character Name -->
+                <p id="character-name-paragraph">
+                    Charlie
+                </p>
+
+                <!-- Change Name of Character Input -->
+                <div class="container">
+                    <input id="name-change-input" />
+                    <button id="name-change-button"> Change Name </button>
+                </div>
+
+                <!-- Change of Text Button -->
+                <button id="character-change-button"> Change Character </button>
             </div>
 
 
-            <!-- Change of Text Button -->
-            <button id="character-change-button"> Change Character </button>
         </div>
     </div>
 

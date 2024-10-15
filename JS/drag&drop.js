@@ -1,19 +1,28 @@
-const flowerHeadband = document.getElementById("complement-1")
-const dropZone = document.getElementById("character-img")
+const flowerHeadband = document.getElementById("complement-1");
+const dropZone = document.getElementById("character-img");
 
 function onDrop(event) {
     // Bring the Flower Headband to the Position (ClientX, ClientY)
-    flowerHeadband.left = clientX;
-    flowerHeadband.top = clientY;
+    flowerHeadband.style.left = event.clientX - offsetX + "px";
+    flowerHeadband.style.top = event.clientY - offsetY + "px";
     console.log("Element has been dropped");
 }
 
 function onDragOver(event) {
-    console.log("Something is being dragged over me!")
+    event.preventDefault();
+    console.log("Something is being dragged over me!");
 }
 
+let offsetX = 0;
+let offsetY = 0;
+
 function onDragStart(event) {
- console.log ("I'm being dragged")
+
+    const style = window.getComputedStyle(flowerHeadband, null);
+
+    offsetX = event.clientX - parseInt(style.left);
+    offsetY = event.clientY - parseInt(style.top);
+    console.log("I'm being dragged");
 }
 
 dropZone.ondrop = onDrop;
